@@ -1,0 +1,1 @@
+export const API_PATH = 'https://cleosonnile.com/wp-json/wp/v2/';

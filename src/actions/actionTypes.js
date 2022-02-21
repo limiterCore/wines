@@ -1,0 +1,15 @@
+// Wines
+export const LOAD_WINES_SUCCESS = 'LOAD_WINES_SUCCESS';
+export const FILTER_WINES = 'FILTER_WINES';
+export const OPEN_WINE = 'OPEN_WINE';
+export const OPEN_SIDEBAR = 'OPEN_SIDEBAR';
+export const CLOSE_SIDEBAR = 'CLOSE_SIDEBAR';
+
+// FILTER
+export const CHANGE_FILTER = 'CHANGE_FILTER';
+export const CHANGE_RANGE_FILTER = 'CHANGE_RANGE_FILTER';
+export const CHANGE_NAME_FILTER = 'CHANGE_NAME_FILTER';
+export const RESET_FILTER = 'RESET_FILTER';
+
+// Ajax
+export const BEGIN_AJAX_CALL = 'BEGIN_AJAX_CALL';

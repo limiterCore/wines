@@ -1,0 +1,24 @@
+.rotate-device {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background: @dark-color;
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	&:after {
+		content: "";
+		.svg-icon('icon-rotate-device', 80px, 79px);
+	}
+
+	@media screen and (orientation: portrait) {
+		display: flex;
+	}
+}

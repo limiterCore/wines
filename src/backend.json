@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "title": {
+            "rendered": "Cabernet Sauvignon"
+        },
+        "content": {
+            "rendered": "Red. This French-origin grape was first made famous by the wines of Bordeaux. Today, Cabernet Sauvignon grows all over the world, including several unexpected places such as Lebanon and China.\n\n"
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": true,
+        "available": true,
+        "age": 1,
+        "price": 40,
+        "kind": "sweet",
+        "country": "Lebanon",
+        "color": "red"
+    },
+    {
+        "id": 2,
+        "title": {
+            "rendered": "Merlot"
+        },
+        "content": {
+            "rendered": "Red. The “other” Bordeaux variety produces exceptional, age-worthy wines even if it is often overshadowed by Cabernet Sauvignon. Merlot is known for its boisterous cherry fruit flavors and refined tannin texture."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": true,
+        "available": false,
+        "age": 1,
+        "price": 23,
+        "kind": "sweet",
+        "country": "Spain",
+        "color": "red"
+    },
+    {
+        "id": 3,
+        "title": {
+            "rendered": "Airén"
+        },
+        "content": {
+            "rendered": "White. One of the least-known of the prolific wine grapes of the world, Airén grows mostly in the Castilla-La Mancha region of Spain where vines are spread far apart to survive the arid high plains."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": true,
+        "available": false,
+        "age": 3,
+        "price": 11,
+        "kind": "semi-sweet",
+        "country": "France",
+        "color": "white"
+    },
+    {
+        "id": 4,
+        "title": {
+            "rendered": "Tempranillo"
+        },
+        "content": {
+            "rendered": "Red. This is Spain’s most planted and highly-prized red variety. Wines range in style from rosé to red, but Tempranillo is perhaps most known by its two champion regions of Rioja and Ribera del Duero."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": true,
+        "available": false,
+        "age": 3,
+        "price": 109,
+        "kind": "semi-sweet",
+        "country": "France",
+        "color": "red"
+    },
+    {
+        "id": 5,
+        "title": {
+            "rendered": "Chardonnay"
+        },
+        "content": {
+            "rendered": "White. The world’s favorite white wine originated in Burgundy, France, where wines were traditionally aged in oak barriques (barrels). The oak-aging makes Chardonnay one of the boldest styles of white wine in the world."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": true,
+        "available": false,
+        "age": 3,
+        "price": 44,
+        "kind": "dry",
+        "country": "France",
+        "color": "white"
+    },
+    {
+        "id": 6,
+        "title": {
+            "rendered": "Syrah"
+        },
+        "content": {
+            "rendered": "Red. Syrah originated in the Northern Rhône of France and went on to become the most popular wine in Australia (where it’s called Shiraz)."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": false,
+        "available": true,
+        "age": 5,
+        "price": 1,
+        "kind": "sweet",
+        "country": "Spain",
+        "color": "red"
+    },
+    {
+        "id": 7,
+        "title": {
+            "rendered": "Garnacha"
+        },
+        "content": {
+            "rendered": "Red. This is a lighter-colored red with high-toned aromas of red and black berries. For what the grape lacks in tannin it makes up for with zingy acidity and elevated alcohol. This grape blends exceptionally well with Syrah and Monastrell."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": false,
+        "available": true,
+        "age": 2,
+        "price": 34,
+        "kind": "dry",
+        "country": "Argentina",
+        "color": "red"
+    },
+    {
+        "id": 8,
+        "title": {
+            "rendered": "Sauvignon Blanc"
+        },
+        "content": {
+            "rendered": "White. Sauvignon means “savage” or “wild,” which describes the state of the wild white grape vines planted around Bordeaux and the Loire Valley of France. Sauvignon Blanc is being recognized as increasingly special, as it was recently identified to be the parent grape of Cabernet Sauvignon."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": false,
+        "available": true,
+        "age": 4,
+        "price": 28,
+        "kind": "sweet",
+        "country": "Spain",
+        "color": "white"
+    },
+    {
+        "id": 9,
+        "title": {
+            "rendered": "Trebbiano Toscano"
+        },
+        "content": {
+            "rendered": "White. This is another lesser-known grape at the top of the list of Italian origin wines that’s mostly used in the production of Balsamic vinegar and French Brandy. In Cognac this grape is known as Ugni Blanc."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": false,
+        "available": true,
+        "age": 7,
+        "price": 50,
+        "kind": "sweet",
+        "country": "Italy",
+        "color": "white"
+    },
+    {
+        "id": 10,
+        "title": {
+            "rendered": "Pinot Noir"
+        },
+        "content": {
+            "rendered": "White. This is another lesser-known grape at the top of the list of Italian origin wines that’s mostly used in the production of Balsamic vinegar and French Brandy. In Cognac this grape is known as Ugni Blanc."
+        },
+        "thumbnail": ["https://via.placeholder.com/218x292"],
+        "gallery": [
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420",
+            "https://via.placeholder.com/640x420"
+        ],
+        "new": false,
+        "available": true,
+        "age": 3,
+        "price": 16,
+        "kind": "sweet",
+        "country": "Spain",
+        "color": "red"
+    }
+]

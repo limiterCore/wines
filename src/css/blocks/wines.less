@@ -1,0 +1,126 @@
+.wines {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		width: 218px;
+		margin-right: calc(~"(100% - 218px * 4) / 3");
+		margin-bottom: 32px;
+		text-decoration: none;
+		transition: margin-right .2s ease-in-out;
+		.speed-transition();
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+		.main-content-wrapper_shifted & {
+			margin-right: calc(~"(100% - 218px * 2) / 1");
+			&:nth-child(4n) {
+				margin-right: calc(~"(100% - 218px * 2) / 1");
+			}
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+		}
+	}
+	&__item-image {
+		height: 292px;
+		position: relative;
+		margin-bottom: 6px;
+		background-color: @dark-color;
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%);
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			z-index: 20;
+			.svg-icon('icon-angle', 218px, 30px);
+		}
+	}
+	&__item-flags {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		display: flex;
+	}
+	&__item-new {
+		height: 24px;
+		box-shadow: inset 0 0 10px rgba(255, 61, 87, 0.75);
+		border-radius: 2px 0 0 2px;
+		background-color: @red-color;
+		padding: 0 10px;
+
+		color: white;
+		.bold();
+		font-size: @9;
+		line-height: 23px;
+		text-transform: uppercase;
+		text-align: center;
+		&:only-child {
+			border-radius: 2px;
+		}
+	}
+	&__item-wt {
+		height: 24px;
+		border-radius: 0 2px 2px 0;
+		background-color: white;
+		padding: 0 10px;
+
+		color: black;
+		.bold();
+		font-size: @9;
+		line-height: 24px;
+		text-transform: uppercase;
+		text-align: center;
+		&:only-child {
+			border-radius: 2px;
+		}
+	}
+	&__item-name {
+		color: @dark-color;
+		.bold();
+		font-size: @24;
+		margin-bottom: 11px;
+		margin-left: 11px;
+		margin-right: 11px;
+	}
+	&__item-features {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 11px;
+	}
+	&__item-feature {
+		width: 50%;
+		display: flex;
+		margin-bottom: 7px;
+	}
+	&__item-feature-title {
+		color: @dark-color;
+		.regular();
+		font-size: @12;
+		width: 43px;
+		display: block;
+		.wines__item-feature:nth-child(2n+1) & {
+			width: 34px;
+		}
+	}
+	&__item-feature-value {
+		color: @dark-color;
+		.bold();
+		font-size: @12;
+	}
+}

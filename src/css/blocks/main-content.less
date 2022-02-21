@@ -1,0 +1,29 @@
+.main-content-wrapper {
+	position: relative;
+	&_shifted {
+
+	}
+}
+
+.main-content {
+	padding: 17px 0 0 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: margin-left .2s ease-in-out;
+	.speed-transition();
+
+	&_shifted {
+		padding-left: 17px;
+		margin-left: 518px;
+	}
+	.main-content-wrapper_shifted & {
+		padding-left: 17px;
+		margin-left: 518px;
+	}
+
+	&__container {
+		padding: 0 17px;
+	}
+}

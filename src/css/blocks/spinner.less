@@ -1,0 +1,37 @@
+.spinner-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&_screen {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 9000000;
+		background: @dark-color;
+	}
+}
+.spinner {
+	animation: spinner 1.5s infinite cubic-bezier(.72,.25,.2,.68);
+	border: 2px solid @red-color;
+	border-radius: 50%;
+	border-right-color: transparent;
+	height: 50px;
+	width: 50px;
+
+	.spinner-container_screen & {
+		height: 150px;
+		width: 150px;
+	}
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

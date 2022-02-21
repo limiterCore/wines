@@ -1,0 +1,96 @@
+.main-sidebar {
+	position: fixed;
+	left: 60px - 533px;
+	top: 0;
+	bottom: 0;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	width: 533px;
+	background: @dark-color;
+	z-index: 200;
+	.speed-transition();
+	transition: left .2s ease-in-out;
+
+	&.open {
+		left: 0;
+	}
+
+	&.static-open {
+		left: 0;
+	}
+
+	&__inactive {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 24px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 60px;
+		transition: all .2s ease-in;
+		.open & {
+			transform: translateX(60px);
+			visibility: hidden;
+			display: none;
+		}
+	}
+
+	&__open-filters {
+		display: block;
+		text-decoration: none;
+		border: none;
+		background: none;
+		padding: 0;
+		.svg-icon('icon-filter', 24px, 24px);
+		outline: none;
+	}
+
+	&__back {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 60px;
+		height: 60px;
+		border: none;
+		background: none;
+		padding: 0;
+		outline: none;
+		&:after {
+			position: absolute;
+			content: "";
+			.svg-icon('icon-back', 24px, 24px);
+			top: 18px;
+			left: 18px;
+		}
+	}
+
+	&__close {
+		position: fixed;
+		top: 4px;
+		left: 0;
+		width: 60px;
+		height: 60px;
+		text-decoration: none;
+		border: none;
+		background: none;
+		padding: 0;
+		outline: none;
+		display: none;
+		z-index: 1000;
+		&.visible {
+			display: block;
+		}
+		&:after {
+			position: absolute;
+			content: "";
+			.svg-icon('icon-back', 24px, 24px);
+			top: 18px;
+			left: 18px;
+		}
+
+		.open & {
+			position: fixed;
+		}
+	}
+}
